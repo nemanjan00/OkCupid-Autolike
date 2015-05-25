@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name Badoo-Autolike
+// @name OkCupid-Autolike-Autolike
 // @author nemanjan00
 // @include http://www.okcupid.com/quickmatch
-// @downloadURL https://raw.githubusercontent.com/nemanjan00/Badoo-Autolike/master/Badoo-Autolike.user.js
-// @namespace https://github.com/nemanjan00/Badoo-Autolike
-// @updateURL https://raw.githubusercontent.com/nemanjan00/Badoo-Autolike/master/Badoo-Autolike.user.js
+// @downloadURL https://raw.githubusercontent.com/nemanjan00/OkCupid-Autolike/master/OkCupid-Autolike.user.js
+// @namespace https://github.com/nemanjan00/OkCupid-Autolike
+// @updateURL https://raw.githubusercontent.com/nemanjan00/OkCupid-Autolike/master/OkCupid-Autolike.user.js
 // @version 1
 // ==/UserScript==
 
