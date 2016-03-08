@@ -5,9 +5,9 @@
 // @downloadURL https://raw.githubusercontent.com/nemanjan00/OkCupid-Autolike/master/OkCupid-Autolike.user.js
 // @namespace https://github.com/nemanjan00/OkCupid-Autolike
 // @updateURL https://raw.githubusercontent.com/nemanjan00/OkCupid-Autolike/master/OkCupid-Autolike.user.js
-// @version 1
+// @version 2
 // ==/UserScript==
 
 setInterval(function(){
-	document.getElementById("quickmatch-like").click();
+	document.getElementsByClassName("cardactions-action--like")[0].click();
 }, 50);
