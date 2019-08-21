@@ -11,11 +11,11 @@
 // @downloadURL https://raw.githubusercontent.com/nemanjan00/OkCupid-Autolike/master/OkCupid-Autolike.user.js
 // @namespace https://github.com/nemanjan00/OkCupid-Autolike
 // @updateURL https://raw.githubusercontent.com/nemanjan00/OkCupid-Autolike/master/OkCupid-Autolike.user.js
-// @version 2.2
+// @version 2.3
 // ==/UserScript==
 
 setInterval(function(){
-	var desktopButton = document.getElementsByClassName("cardactions-action--like")[0];
+	var desktopButton = document.getElementsByClassName(".doubletake-like-button")[0];
 	var mobileButton = document.getElementsByClassName("quickmatch-button-like")[0];
 	
 	(desktopButton || mobileButton).click();
